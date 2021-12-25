@@ -1,0 +1,23 @@
+:root {
+  --blue: hsl(192, 37%, 48%);
+  --purple: hsl(268, 34%, 53%);
+  --dark-blue: hsl(240, 21%, 20%);
+  --grey: hsl(240, 10%, 57%);
+  --light-gray: hsl(0, 0%, 98%);
+  --blue-hover: hsl(192, 90%, 77%);
+  --purple-hover: hsl(268, 100%, 86%);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
