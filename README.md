@@ -7,6 +7,6 @@
 ## Todo
 
 - ~~Desktop~~
-- Tablet
+- ~~Tablet~~
 - Mobile
 - ~~Active States~~
