@@ -1,2 +1,148 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
 @import "./globals.css";
+
+.logo {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 358px;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.bg-1 {
+  background: url("../assets/desktop/image-hero-left.png") no-repeat 0 0;
+  flex: 1;
+  height: 100%;
+  margin-left: -30px;
+}
+
+.bg-2 {
+  background: url("../assets/desktop/image-hero-right.png") no-repeat bottom
+    right;
+  flex: 1;
+  height: 100%;
+  margin-right: -30px;
+}
+
+.middle {
+  flex-basis: 540px;
+  text-align: center;
+}
+
+.middle h1 {
+  margin: 0 auto;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+  width: 440px;
+  color: var(--dark-blue);
+}
+
+.middle p {
+  line-height: 26px;
+  color: var(--grey);
+  padding: 30px 0;
+}
+
+.buttons > * {
+  margin: 0 10px;
+}
+
+.pictures {
+  width: 1110px;
+  height: 242px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pic {
+  border-radius: 10px;
+  flex-basis: 255px;
+}
+
+.pic-1 {
+  background: url("../assets/desktop/image-woman-in-videocall.jpg") no-repeat
+    center center / cover;
+}
+.pic-2 {
+  background: url("../assets/desktop/image-women-videochatting.jpg") no-repeat
+    center center / cover;
+}
+.pic-3 {
+  background: url("../assets/desktop/image-men-in-meeting.jpg") no-repeat center
+    center / cover;
+}
+.pic-4 {
+  background: url("../assets/desktop/image-man-texting.jpg") no-repeat center
+    center / cover;
+}
+
+.modern-content {
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 25px;
+}
+
+.modern-content h2 {
+  margin: 0 auto 30px;
+  font-size: 40px;
+  line-height: 44px;
+  max-width: 445px;
+  color: var(--dark-blue);
+}
+
+footer {
+  padding: 115px 25px;
+  background: url("../assets/desktop/image-footer.jpg") no-repeat center center /
+    cover;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #4d97a9e5;
+  z-index: 0;
+}
+
+.footer-container {
+  max-width: 1110px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-container > * {
+  z-index: 1;
+}
+
+.footer-container h2,
+.footer-container p {
+  color: var(--light-gray);
+  flex-basis: 350px;
+}
+
+.footer-container h2 {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+.footer-container p {
+  line-height: 26px;
+}
+
+.footer-container div {
+  text-align: center;
+  flex-basis: 198px;
+}
